@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hunt.bank.multiple.multiplebankhunt.MainActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/andhra"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/andhrabank1"
+        android:onClick="andhra" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/axis"
+        android:src="@drawable/axis"
+        android:layout_above="@+id/citi"
+        android:layout_centerHorizontal="true"
+        android:onClick="axis" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/baroda"
+        android:src="@drawable/bob"
+        android:layout_above="@+id/dcb"
+        android:layout_alignParentEnd="true"
+        android:onClick="baroda" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/canara"
+        android:layout_below="@+id/andhra"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/canara"
+        android:onClick="canara" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/citi"
+        android:src="@drawable/citi"
+        android:layout_below="@+id/andhra"
+        android:layout_alignStart="@+id/axis"
+        android:onClick="citi" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dcb"
+        android:layout_alignTop="@+id/citi"
+        android:layout_alignStart="@+id/baroda"
+        android:src="@drawable/dcb"
+        android:onClick="dcb" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hdfc"
+        android:layout_below="@+id/canara"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/hdfc"
+        android:onClick="hdfc" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hsbc"
+        android:src="@drawable/hsbc1"
+        android:layout_below="@+id/citi"
+        android:layout_alignStart="@+id/citi"
+        android:onClick="hsbc" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icici"
+        android:layout_below="@+id/dcb"
+        android:layout_alignStart="@+id/dcb"
+        android:src="@drawable/icici"
+        android:onClick="icici" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kotak"
+        android:layout_below="@+id/hdfc"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/kotak"
+        android:onClick="kotak" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/punjab"
+        android:src="@drawable/pnb"
+        android:layout_below="@+id/hsbc"
+        android:layout_alignStart="@+id/hsbc"
+        android:onClick="pnb" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbh"
+        android:layout_alignTop="@+id/punjab"
+        android:layout_alignStart="@+id/icici"
+        android:src="@drawable/sbh1"
+        android:onClick="sbh" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbi"
+        android:layout_below="@+id/kotak"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/sbi"
+        android:onClick="sbi" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uco"
+        android:src="@drawable/uco"
+        android:layout_below="@+id/punjab"
+        android:layout_alignStart="@+id/punjab"
+        android:onClick="uco" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vijaya"
+        android:src="@drawable/vijaya"
+        android:layout_below="@+id/sbh"
+        android:layout_alignParentEnd="true"
+        android:onClick="vijaya" />
+
+</RelativeLayout>
